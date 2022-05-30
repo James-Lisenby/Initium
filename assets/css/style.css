@@ -32,11 +32,7 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
+.header div {
     display: inline-block;
     margin-left: 25px;
 }
@@ -44,10 +40,14 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
+    text-decoration: underline solid rgb(25, 0, 253) 2px;
+    margin-left: 50px;
+    font-size: 25px;
+    display: inline-block;
 }
 
 p {
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .hero {
